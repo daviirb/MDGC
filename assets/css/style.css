@@ -173,7 +173,8 @@ form button {
 .button-back button{
     display: block;
     position: absolute;
-    bottom: 8px;
+    bottom: 5%;
+    left: 2%;
     width: 80px;
     height: 40px;
     background-color: #FF0000;
