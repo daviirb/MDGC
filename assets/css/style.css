@@ -144,22 +144,22 @@ form button {
     height: 100px;    
     border-radius: 25px;
     margin-top:10%;
-    margin-left:20%;
-    
-    
-    
-     
+    margin-left:20%;   
+}
 
+.detail p {
+    text-align: center;
+     font-size: 12px;
+    
 }
 .detail img{
     background-color: #696969;
-    width: 100px;
-    height: 100px;
+    width: 105%;
+    height: 105%;
     padding: 16px;
     border-radius: 25px;
     
 }
-
 
 .container-detail {
     display: block ;
@@ -181,3 +181,4 @@ form button {
     text-decoration: none;
     
 }
+
