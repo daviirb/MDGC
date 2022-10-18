@@ -11,7 +11,8 @@
  
  header nav {
     display: flex;
-    align-items: center;  
+    align-items: center;
+    
  }
  
  header nav h3{
@@ -22,7 +23,8 @@
  body {
    font-family: 'Roboto', sans-serif;
    color: #FFFFFF;
-      
+   
+   
  }
  
  .container-login {
@@ -32,7 +34,8 @@
     left: 0px;
     top: 0px;
     background-color: #696969;
-     
+    
+ 
  }
  
  .container-box-login {
@@ -42,7 +45,8 @@
     left: 25%;
     top: 25%;
     background-color: #696969;
-      
+    
+    
 }
 
 .container-box-login h1,
@@ -119,9 +123,18 @@ form button {
 
 }
 
-.veicles img{
+.veicles img {
+    display: block;
     border-radius: 25px;
-    padding: 8px;
+    width: 100%;
+    height: 100%;
+   
+}
+
+.veicles a {
+    display: block;
+    width: 40%;
+    border-radius: 25px;
 }
 
 .detail{
@@ -133,6 +146,10 @@ form button {
     margin-top:10%;
     margin-left:20%;
     
+    
+    
+     
+
 }
 .detail img{
     background-color: #696969;
@@ -150,5 +167,5 @@ form button {
     width: 100%;
     height: 100%;
     background-color: #272121;
+    
 }
-
